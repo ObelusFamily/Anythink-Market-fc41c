@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Clone GitHub Repo
+Install Docker - https://docs.docker.com/get-docker/
+Ensure Docker has been installed using 'docker -v' and 'docker-compose -v'
+If Docker has been installed correctly, you will be able to see '{"msg":"Pong! Seems like Everythink is working, great job!"}' when accessing http://localhost:3000/api/ping on your browser
+Now check the frontend is working - http://localhost:3001/register
+Create an account
